@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@nighttrax/eslint-config-ts", "@nighttrax/eslint-config-react"],
+  extends: ["@lastelaphine/eslint-config-ts", "@lastelaphine/eslint-config-react"],
 };

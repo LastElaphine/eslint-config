@@ -1,36 +1,36 @@
 {
-  "name": "@nighttrax/eslint-config-ts",
-  "version": "8.0.4",
+  "name": "@lastelaphine/eslint-config-ts",
+  "version": "1.0.0",
   "publishConfig": {
     "access": "public"
   },
-  "description": "NiGhTTraX's ESLint config for TS libs",
+  "description": "LastElaphine's ESLint config for TS libs",
   "keywords": [
     "eslint",
     "config",
     "typescript"
   ],
-  "author": "Andrei Picus <NiGhTTraX@users.noreply.github.com>",
+  "author": "Shailen Patel <LastElaphine@users.noreply.github.com>",
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
+    "url": "git+https://github.com/LastElaphine/eslint-config.git"
   },
   "scripts": {
-    "test": "../../test.sh mugshot ts"
+    "test": "../../test.sh mugshot ts NiGhTTraX"
   },
   "dependencies": {
-    "@nighttrax/eslint-config-base": "^7.1.1",
+    "@lastelaphine/eslint-config-base": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "~4.21.0",
     "@typescript-eslint/parser": "~4.21.0",
     "eslint-import-resolver-typescript": "~2.4.0"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": "^7.24.0"
   },
   "devDependencies": {
-    "eslint": "^7.0.0",
-    "typescript": "^4.0.0"
+    "eslint": "^7.24.0",
+    "typescript": "^4.2.4"
   }
 }

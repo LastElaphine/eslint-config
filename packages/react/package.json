@@ -1,29 +1,29 @@
 {
-  "name": "@nighttrax/eslint-config-react",
-  "version": "6.0.1",
+  "name": "@lastelaphine/eslint-config-react",
+  "version": "1.0.0",
   "publishConfig": {
     "access": "public"
   },
-  "description": "NiGhTTraX's ESLint config for React components",
+  "description": "LastElaphine's ESLint config for React components",
   "keywords": [
     "eslint",
     "config",
     "react"
   ],
-  "author": "Andrei Picus <NiGhTTraX@users.noreply.github.com>",
+  "author": "Shailen Patel <LastElaphine@users.noreply.github.com>",
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
+    "url": "git+https://github.com/LastElaphine/eslint-config.git"
   },
   "dependencies": {
     "eslint-config-airbnb": "~18.2.1",
     "eslint-plugin-jsx-a11y": "~6.4.1",
-    "eslint-plugin-react": "~7.23.0",
+    "eslint-plugin-react": "~7.23.2",
     "eslint-plugin-react-hooks": "~4.2.0"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": "^7.24.0"
   }
 }

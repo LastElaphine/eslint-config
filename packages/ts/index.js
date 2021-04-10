@@ -1,7 +1,7 @@
-const testOverrides = require("@nighttrax/eslint-config-base/tests.js");
+const testOverrides = require("@lastelaphine/eslint-config-base/tests.js");
 
 module.exports = {
-  extends: ["@nighttrax/eslint-config-base"],
+  extends: ["@lastelaphine/eslint-config-base"],
 
   parser: "@typescript-eslint/parser",
 

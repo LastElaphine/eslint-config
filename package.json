@@ -1,5 +1,5 @@
 {
-  "name": "@nighttrax/eslint-config",
+  "name": "@lastelaphine/eslint-config",
   "private": true,
   "workspaces": [
     "packages/*"

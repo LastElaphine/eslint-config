@@ -1,35 +1,35 @@
 {
-  "name": "@nighttrax/eslint-config-tsx",
-  "version": "8.0.5",
+  "name": "@lastelaphine/eslint-config-tsx",
+  "version": "1.0.0",
   "publishConfig": {
     "access": "public"
   },
-  "description": "NiGhTTraX's ESLint config for TSX apps",
+  "description": "LastElaphine's ESLint config for TSX apps",
   "keywords": [
     "eslint",
     "config",
     "typescript",
     "react"
   ],
-  "author": "Andrei Picus <NiGhTTraX@users.noreply.github.com>",
+  "author": "Shailen Patel <LastElaphine@users.noreply.github.com>",
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
+    "url": "git+https://github.com/LastElaphine/eslint-config.git"
   },
   "scripts": {
-    "test": "../../test.sh tdd-buffet tsx"
+    "test": "../../test.sh tdd-buffet tsx NiGhTTraX"
   },
   "dependencies": {
-    "@nighttrax/eslint-config-react": "^6.0.1",
-    "@nighttrax/eslint-config-ts": "^8.0.4"
+    "@lastelaphine/eslint-config-react": "^1.0.0",
+    "@lastelaphine/eslint-config-ts": "^1.0.0"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": "^7.24.0"
   },
   "devDependencies": {
-    "eslint": "^7.0.0",
-    "typescript": "^4.0.0"
+    "eslint": "^7.24.0",
+    "typescript": "^4.2.0"
   }
 }
