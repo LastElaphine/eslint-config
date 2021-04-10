@@ -1,6 +1,6 @@
 {
   "name": "@lastelaphine/eslint-config-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "access": "public"
   },
@@ -21,7 +21,7 @@
     "test": "../../test.sh mugshot ts NiGhTTraX"
   },
   "dependencies": {
-    "@lastelaphine/eslint-config-base": "^1.0.0",
+    "@lastelaphine/eslint-config-base": "^1.0.1",
     "@typescript-eslint/eslint-plugin": "~4.21.0",
     "@typescript-eslint/parser": "~4.21.0",
     "eslint-import-resolver-typescript": "~2.4.0"
