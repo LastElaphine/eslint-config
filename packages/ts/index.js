@@ -3,8 +3,8 @@ const testOverrides = require("@lastelaphine/eslint-config-base/tests.js");
 module.exports = {
   extends: [
     "@lastelaphine/eslint-config-base",
-    "@typescript-eslint/recommended",
-    "@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
   ],
 
   parser: "@typescript-eslint/parser",
