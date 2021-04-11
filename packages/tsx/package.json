@@ -1,6 +1,6 @@
 {
   "name": "@lastelaphine/eslint-config-tsx",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "publishConfig": {
     "access": "public"
   },
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@lastelaphine/eslint-config-react": "^1.0.1",
-    "@lastelaphine/eslint-config-ts": "^1.0.5"
+    "@lastelaphine/eslint-config-ts": "^1.0.6"
   },
   "peerDependencies": {
     "eslint": "^7.24.0"
