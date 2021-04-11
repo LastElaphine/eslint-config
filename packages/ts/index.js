@@ -5,7 +5,10 @@ module.exports = {
 
   parser: "@typescript-eslint/parser",
 
-  plugins: ["@typescript-eslint"],
+  plugins: [
+    "@typescript-eslint/eslint-recommended",
+    "@typescript-eslint/recommended",
+  ],
 
   settings: {
     "import/parsers": {
@@ -33,6 +36,13 @@ module.exports = {
         // Allow `let { ignored, ...rest} = foo`.
         ignoreRestSiblings: true,
       },
+    ],
+
+    // Allow no lines between class members if they only take a single line.
+    "lines-between-class-members": [
+      "error",
+      "always",
+      { exceptAfterSingleLine: true },
     ],
 
     // Allow `constructor(private foo: number) {}`
